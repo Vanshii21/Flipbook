@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flip Book</title>
+    <link rel="stylesheet" href="./Flipbook.css" />
+  </head>
+  <body>
+    <div class="book">
+      <input type="checkbox" id="c1" />
+      <input type="checkbox" id="c2" />
+      <input type="checkbox" id="c3" />
+      <div id="cover"><img src="https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg" /></div>
+      <div class="flip-book">
+        <div class="flip" id="p1">
+          <div class="back">
+            <img src="https://i.natgeofe.com/n/a4e20a18-8ae7-4f9a-be59-d7038dbd8d82/4463961.jpg" />
+            <label class="back-btn" for="c1">Back</label>
+          </div>
+          <div class="front">
+            <h2>Tiger</h2>
+            <p>
+              The tiger is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar.
+            </p>
+            <label class="next-btn" for="c1">Next</label>
+          </div>
+        </div>
+        <div class="flip" id="p2">
+          <div class="back">
+            <img src="https://d.newsweek.com/en/full/1877616/dog-field.jpg?w=1600&h=1600&q=88&f=39547aa58a097c83f114ccad34b4d4d3" />
+            <label class="back-btn" for="c2">Back</label>
+          </div>
+          <div class="front">
+            <h2>Peacock</h2>
+            <p>
+              Peafowl is a common name for three bird species in the genera Pavo and Afropavo of the family Phasianidae, the pheasants and their allies. Male peafowl are referred to as peacocks, and female peafowl are referred to as peahens, even though peafowl of either sex are often referred to colloquially as "peacocks".
+            </p>
+            <label class="next-btn" for="c2">Next</label>
+          </div>
+        </div>
+
+        <div class="flip" id="p3">
+          <div class="back">
+            <label class="back-btn" for="c3">Back</label>
+          </div>
+          <div class="front">
+            <h2>Dog</h2>
+            <p>
+              The dog or domestic dog is a domesticated descendant of the wolf, characterized by an upturning tail. The dog derived from an ancient, extinct wolf, and the modern grey wolf is the dog's nearest living relative.
+            </p>
+            <label class="next-btn" for="c3">Next</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
